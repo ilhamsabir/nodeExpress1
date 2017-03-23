@@ -1,0 +1,97 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/* Block */
+.btn {
+  text-decoration: none;
+  background-color: white;
+  color: #888;
+  border-radius: 0px;
+  display: inline-block;
+  margin: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 5px;
+}
+
+/* Element */
+.btn__price {
+  background-color: white;
+  color: #fff;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: -10px; /* realign button text padding */
+  font-weight: 600;
+  background-color: #333;
+  opacity: .4;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* Element */
+.btn__text {
+  padding: 0 10px;
+  border-radius: 0 0 0 0;
+}
+
+/* Modifier */
+.btn--big {
+  font-size: 28px;
+  padding: 10px;
+  font-weight: 400;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* Modifier */
+.btn--blue {
+  border-color: #0074D9;
+  color: white;
+  background-color: #0074D9;
+}
+
+/* Modifier */
+.btn--orange {
+  border-color: #FF4136;
+  color: white;
+  background-color: #FF4136;
+}
+
+/* Modifier */
+.btn--green {
+  border-color: #3D9970;
+  color: white;
+  background-color: #3D9970;
+}
+
+/* PAGE */
+
+.page { 
+  width: auto;
+  min-height: 450px;
+  background: #f5f5f5;
+
+}
+
+.page__title{
+  font-size: 24px;
+  color: #616161;
+  font-weight: 800;
+  text-align: center;
+  padding: 10px 0 10px 0; 
+  border-bottom: 2px solid #757575;
+ 
+}
+
+.page__text{
+    font-size: 14px;
+    color: #424242;
+    font-family: monospace;
+    padding: 5px 10px 10px 30px;
+}
+
